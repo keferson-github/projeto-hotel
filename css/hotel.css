@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --cor01: #0d0d0d;
+  --cor02: #f2f2f2;
+  --cor03: #8c5d23;
+  --cor04: #bf7f30;
+  --cor05: #f2c36b;
+}
+
+.bg-nav-color {
+  background-color: var(--cor01);
+}
+
+.bg-nav-color a:hover {
+  color: #bf7f30;
+}
+
+.txt-nav-color {
+  color: white;
+}
+
+body {
+  background-color: aliceblue;
+  margin: 0 !important;
+  width: 100vw;
+  padding: 0 !important;
+}
+
+main {
+  margin: 30px 70px 60px 70px;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  padding: 35px;
+}
+
+h3 {
+  font-family: "poppins";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-family: "poppins";
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.clearfix {
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+  font-family: "poppins";
+  font-size: 16px;
+  text-align: left;
+  text-indent: 10px;
+  margin-top: 25px;
+}
+/*Imagens explicativas após a sessão sala de reunião*/
+img.col-md-6.float-md-end.mb-3.ms-md-3 {
+  border-radius: 50%;
+  height: 270px;
+  width: 300px;
+  padding: 10px;
+}
+
+.row.row-cols-1.row-cols-md-3.g-4 {
+  padding: 20px;
+  margin: 0px;
+}
+
+#color-ares {
+  color: #f2f2f2;
+  font-family: "poppins";
+  font-size: 50px;
+  text-align: center;
+}
+
+#color-ambiente {
+  color: #f2f2f2;
+  font-family: "poppins";
+  font-size: 30px;
+  text-align: center;
+}
+
+#color-descricao {
+  color: #f2f2f2;
+  font-family: "poppins";
+  font-size: 20px;
+  text-align: center;
+}
+
+.servico-hotel {
+  margin-top: 100px;
+}
+
+img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card.h-100 {
+  border-radius: 20px;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.w-100 {
+  width: 100% !important;
+  border-radius: 0;
+}
+
+span.carousel-control-next-icon {
+  display: none;
+}
+
+.img-reuniao img {
+  border-radius: 0px;
+  height: 600px;
+  margin-top: 0px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.servico-hotel h2 {
+  text-align: center;
+  padding: 20px;
+  line-height: 5px;
+}
+
+.servicos-extras {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 20px;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 750px;
+}
+.servicos-extras img {
+  font-family: "poppins";
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  margin: 10px;
+}
+
+#video-check {
+  height: 300px;
+}
+
+video {
+  border-radius: 0px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+/*Texto sobre o vídeo check-in*/
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+  color: #000000;
+}
+
+main .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  display: none;
+  animation: 3s infinite;
+}
+
+main {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+
+form.row.g-3 {
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #000;
+  color: #fff;
+  resize: none;
+}
+
+h3 {
+  font-family: "poppins";
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: -45px;
+}
+
+/*Formulário envio sua mensagem*/
+.formulario-mensagem {
+  padding: 30px;
+}
+
+article {
+  padding: 30px;
+}
+
+/*formulário de check-in e check-out*/
+.g-2,
+.gy-2 {
+  width: 70%;
+  --bs-gutter-y: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0px;
+  justify-content: center;
+  margin-left: 255px;
+  margin-top: 23px;
+}
+
+.input-group > .form-control,
+.input-group > .form-floating,
+.input-group > .form-select {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0px;
+  height: 70px;
+}
+
+button,
+select {
+  text-transform: none;
+  height: 70px;
+}
+
+/*Botão Check agora*/
+button.btn.btn-primary {
+  background-color: #8c5d23;
+  border-color: #8c5d23;
+  padding: 17px;
+  border-radius: 10px;
+  font-family: "poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #000000;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #000000;
+  --bs-btn-hover-border-color: #000000;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #000000;
+  --bs-btn-active-border-color: #000000;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #000000;
+  --bs-btn-disabled-border-color: #000000;
+}
+
+.btn-primary:hover {
+  background-color: #c2994d;
+  border-color: #c2994d;
+  transition: 0.2s ease-in;
+  animation-duration: 1s;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+button.btn.btn-primary:hover {
+  background-color: #c2994d;
+  border-color: #c2994d;
+  transition: 0.2s ease-in;
+  animation-duration: 1s;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+section {
+  margin-left: 17px;
+  margin-top: 60px;
+  background-color: #000000;
+  height: 135px;
+  width: 98%;
+  padding: 2px;
+  border-radius: 10px;
+}
+footer .card {
+  background-color: rgb(0, 0, 0);
+  border-radius: 0;
+  color: silver;
+  padding: 20px;
+}
+
+footer .card-body {
+  height: 150px;
+  text-align: center;
+  padding: 0 470px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: rgb(146, 57, 146);
+  transition: 0.2s ease-in;
+}
+
+footer .card-header {
+  text-align: center;
+}
