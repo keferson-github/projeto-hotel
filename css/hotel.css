@@ -61,10 +61,11 @@ p {
   text-indent: 10px;
   margin-top: 25px;
 }
+
 /*Imagens explicativas após a sessão sala de reunião*/
 img.col-md-6.float-md-end.mb-3.ms-md-3 {
   border-radius: 50%;
-  height: 270px;
+  height: 200px;
   width: 300px;
   padding: 10px;
 }
@@ -137,19 +138,20 @@ span.carousel-control-next-icon {
 }
 
 .servicos-extras {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    font-family: "poppins";
-    font-weight: bold;
-    text-align: center;
-    justify-content: space-around;
-    border-radius: 5px;
-    padding: 20px;
-    height: 150px;
-    width: 100%;
-    margin-bottom: 20px;
-    margin-top: 750px;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-family: "poppins";
+  font-weight: bold;
+  text-align: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  padding: 20px;
+  height: 150px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 750px;
 }
+
 .servicos-extras img {
   font-family: "poppins";
   text-align: center;
@@ -245,9 +247,9 @@ article {
   margin-top: 23px;
 }
 
-.input-group > .form-control,
-.input-group > .form-floating,
-.input-group > .form-select {
+.input-group>.form-control,
+.input-group>.form-floating,
+.input-group>.form-select {
   position: relative;
   flex: 1 1 auto;
   width: 1%;
@@ -319,6 +321,7 @@ section {
   padding: 2px;
   border-radius: 10px;
 }
+
 footer .card {
   background-color: rgb(0, 0, 0);
   border-radius: 0;
@@ -329,7 +332,7 @@ footer .card {
 footer .card-body {
   height: 150px;
   text-align: center;
-  padding: 0 470px;
+  padding: 10px;
 }
 
 footer a {
