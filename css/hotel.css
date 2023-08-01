@@ -104,6 +104,8 @@ img {
   border-radius: 20px 20px 0px 0px;
 }
 
+
+
 .card.h-100 {
   border-radius: 20px;
 }
@@ -231,12 +233,6 @@ h3 {
 
 article {
   padding: 30px;
-}
-
-.pratos-gastronomia img {
-  border-radius: 20px 20px 0px 0px;
-  height: 350px;
-  width: 100%;
 }
 
 /*formulário de check-in e check-out*/
